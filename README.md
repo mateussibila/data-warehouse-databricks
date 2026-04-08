@@ -45,7 +45,6 @@ This Databricks project includes:
 - **[Databricks Free Edition](https://www.databricks.com/try-databricks):** Cloud-based data platform for running notebooks, Spark jobs, and managing Delta tables.  
 - **[Databricks Documentation](https://docs.databricks.com/):** Learn more about Databricks platform features.  
 - **[DrawIO](https://www.drawio.com/):** Create architecture, data flow, and model diagrams.  
-- **[GitHub](https://github.com/):** Repository hosting for notebooks, scripts, and version control.  
 - **[Databricks Academy](https://academy.databricks.com/):** Courses to deepen your understanding of Databricks, data engineering, and machine learning.
 - **[YouTube](https://www.youtube.com/watch?v=SSKVgrwhzus):** Baraa's video - SQL Full Course (30 Hours).  
 - **[YouTube](https://www.youtube.com/watch?v=9GVqKuTVANE):** Baraa's video - SQL Data Warehouse with SQL Server.  
