@@ -71,26 +71,25 @@ Develop a modern data warehouse on Databricks, consolidating sales and CRM data 
 ```
 data-warehouse-databricks/
 │
-├── data/                              # Raw CSV datasets used as sources for the pipeline
+├── data/                        # Raw CSV datasets used as sources for the pipeline
 │
-├── docs/                               # Project documentation and diagrams
-│   ├── data_architecture.png           # Diagram showing Bronze, Silver, and Gold layers
-│   ├── data_flow.png                   # Data flow diagram across the pipeline
-│   ├── data_integration.png            # Diagram of how different sources are integrated
-│   ├── data_model.png                  # Star schema and dimensional data model
+├── docs/                        # Project documentation and diagrams
+│   ├── data_architecture.png    # Diagram showing Bronze, Silver, and Gold layers
+│   ├── data_flow.png            # Data flow diagram across the pipeline
+│   ├── data_integration.png     # Diagram of how different sources are integrated
+│   ├── data_model.png           # Star schema and dimensional data model
 │
-├── exploration/                        # Notebooks for data exploration and initial analysis
-│   ├── 04_data_exploration.ipynb       # Exploratory analysis on raw and transformed data
+├── exploration/                 # Notebooks for data exploration and initial analysis
 │
-├── pipelines/                          # ETL pipelines for each Medallion layer
-│   ├── setup/                          # Notebooks or scripts for initializing schemas and tables
-│   ├── bronze/                         # Ingestion of raw CSV files into Bronze Delta tables
-│   ├── silver/                         # Cleaning, standardization, and transformation to Silver tables
-│   ├── gold/                           # Creation of fact and dimension tables for Gold layer analytics
+├── pipelines/                   # ETL pipelines for each Medallion layer
+│   ├── setup/                   # Notebooks or scripts for initializing schemas and tables
+│   ├── bronze/                  # Ingestion of raw CSV files into Bronze Delta tables
+│   ├── silver/                  # Cleaning, standardization, and transformation to Silver tables
+│   ├── gold/                    # Creation of fact and dimension tables for Gold layer analytics
 │
-├── README.md                           # Project overview, instructions, and documentation
-├── LICENSE                             # License information for the repository
-└── .gitignore                          # Files and directories ignored by Git in GitHub
+├── README.md                    # Project overview, instructions, and documentation
+├── LICENSE                      # License information for the repository
+└── .gitignore                   # Files and directories ignored by Git in GitHub
 ```
 
 ---
