@@ -11,7 +11,7 @@ Designed as a portfolio project, it highlights modern **data engineering**, **da
 
 The data architecture follows **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers:
 
-![Data Architecture](doc/data_architecture.png)
+![Data Architecture](doc/data_architecture3.png)
 
 1. **Bronze Layer**: Stores raw data ingested directly from CSV files into Databricks **Delta Tables**.
 2. **Silver Layer**: Cleans, standardizes, and enriches the data, making it ready for analytical transformations.
